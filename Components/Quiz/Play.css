@@ -1,0 +1,123 @@
+.questions{
+    background-color: whitesmoke;
+    border-left: 5px solid blue;
+    width: 80%;
+    margin:  3rem auto;
+    padding: 2rem auto;
+}
+.lifeline-container{
+    display: flex;
+    justify-content: space-between;
+}
+.num{
+    position: relative;
+    top: -3px;
+}
+
+.right{
+    float: right;
+}
+h2{
+    text-align: center;
+}
+h5{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.options-container{
+    display: inline-block;
+    width: 50%;
+    
+}
+.option{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    background-color: #007bff;
+  color: white;
+  text-align: center;
+  width: 80%;
+  padding: 1rem ;
+  border: none;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.option:hover{
+    background-color: #0056b3;
+}
+
+.fifty-icon{
+    color: #0056b3;
+    cursor: pointer;
+}
+.fifty-icon:hover{
+    color: orange;
+    background: none;
+}
+
+.button-container{
+display: flex;
+justify-content: flex-start;
+width: 80%;
+margin: 1rem auto;
+padding: 1rem 2rem;
+}
+.button-container button{
+    padding: 1rem;
+    margin-right: 1rem;
+    border: none;
+    color: whitesmoke;
+    
+}
+.button-container button:first-child{
+    background-color: #064283;
+    transition: 0.2s linear all;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2)
+}
+.button-container button:first-child:hover{
+    background-color: #007bff;
+}
+.button-container button:nth-child(2){
+    background-color: rgb(255, 119, 0);
+    transition: 0.2s linear all;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2)
+}
+.button-container button:nth-child(2):hover{
+    background-color: #007bff;
+}
+.button-container button:last-child{
+    background-color: yellowgreen;
+    transition: 0.2s linear all;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2)
+}
+.button-container button:last-child:hover{
+    background-color: yellow;
+}
+
+.toast-valid {
+    background-color: rgb(7, 25, 222) !important ;
+    color: whitesmoke !important;
+    border-radius: 5px !important;
+    width: 8rem;
+    height: 3rem;
+}
+
+.toast-invalid {
+    background-color: rgb(222, 39, 7) !important ;
+    color: whitesmoke !important;
+    border-radius: 5px !important;
+    width: 8rem;
+    height: 3rem;
+}
+.disable{
+background-color: #ccC;
+box-shadow: none;
+pointer-events: none;
+}

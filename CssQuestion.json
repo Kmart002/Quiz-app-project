@@ -1,0 +1,82 @@
+[
+    {
+      "question": "What does CSS stand for?",
+      "optionA": "A) Computer style sheets",
+      "optionB": "B) Creative style sheets",
+      "optionC": "C) Colourful style sheet",
+      "optionD": "D) Cascading style sheet",
+      "answer": "D) Cascading style sheet"
+    },
+    {
+      "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+      "optionA": "A) In the head section",
+      "optionB": "B) In the body section",
+      "optionC": "C) At the end of the document",
+      "optionD": "D) At the middle section",
+      "answer": "A) In the head section"
+    },
+    {
+      "question": "Which HTML tag is used to define an internal style sheet?",
+      "optionA": "A) <css>",
+      "optionB": "B) <script>",
+      "optionC": "C) <style>",
+      "optionD": "D) <myStyle>",
+      "answer": "C) <style>"
+    },
+    {
+      "question": "Which is the correct CSS syntax?",
+      "optionA": "A) body{color=black;}",
+      "optionB": "B) body:color=black",
+      "optionC": "C) {body;color:black;}",
+      "optionD": "D) {body:color=black;}",
+      "answer": "A) body{color=black;}"
+    },
+    {
+      "question": "How do you insert a comment in a CSS file?",
+      "optionA": "A) //This is a comment//",
+      "optionB": "B) //This is a comment",
+      "optionC": "C) /* This is a comment*/",
+      "optionD": "D) /This is a comment/",
+      "answer": "A) //This is a comment//"
+    },
+    {
+      "question": "Which property is used to change the background color?",
+      "optionA": "A) bgcolor",
+      "optionB": "B) background-color",
+      "optionC": "C) color",
+      "optionD": "D) backgroundColor",
+      "answer": "B) background-color"
+    },
+    {
+      "question": "Which CSS property is used to change the text color of an element?",
+      "optionA": "A) text-color",
+      "optionB": "B) color-text",
+      "optionC": "C) fgcolor",
+      "optionD": "D) color",
+      "answer": "D) color"
+    },
+    {
+      "question": "Which CSS property controls the text size?",
+      "optionA": "A) text-style",
+      "optionB": "B) text-size",
+      "optionC": "C) font-size",
+      "optionD": "D) font-style",
+      "answer": "C) font-size"
+    },
+    {
+      "question": "How do you make the text bold?",
+      "optionA": "A) font-weight:bold",
+      "optionB": "B) style:bold",
+      "optionC": "C) font:bold",
+      "optionD": "D) font-size:bold",
+      "answer": "A) font-weight:bold"
+    },
+    {
+      "question": "Which property is used to change the left margin of an element?",
+      "optionA": "A) indent",
+      "optionB": "B) margin-right",
+      "optionC": "C) margin-left",
+      "optionD": "D) padding-left",
+      "answer": "C) margin-left"
+    }
+  ]

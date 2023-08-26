@@ -1,0 +1,159 @@
+/*  
+
+const handleHints = () => {
+    const options = Array.from(document.querySelectorAll('.option'));
+    let indexOfAnswer;
+
+    options.forEach((option, index) => {
+      if (option.selectedOption === currentQuestion.answer) {
+        indexOfAnswer = index;
+      }
+    });
+
+    while (true) {
+      const randomNumber = Math.round(Math.random() * 3);
+      if (randomNumber !== indexOfAnswer) {
+        options.forEach((option, index) => {
+          if (index === randomNumber) {
+            option.style.visibility = 'hidden';
+            setHints(prevHints => prevHints - 1);
+          }
+        });
+        break;
+      }
+    }
+  };  
+
+
+  const showOptions = () => {
+    const options = Array.from(document.querySelectorAll('.option'));
+    options.forEach((option) => {
+      option.style.visibility = 'visible';
+    });
+
+  };
+
+  const handleHints = () => {
+    if (hints > 0) {
+      const options = Array.from(document.querySelectorAll('.option'));
+      let indexOfAnswer;
+
+      options.forEach((option, index) => {
+        if (option === currentQuestion.answer) {
+          indexOfAnswer = index;
+        }
+      });
+
+      while (true) {
+        const randomNumber = Math.round(Math.random() * 3);
+        if (
+          randomNumber !== indexOfAnswer &&
+          !previousRandomNumbers.includes(randomNumber) 
+        ) {
+          options.forEach((option, index) => {
+            if (index === randomNumber) option.style.visibility = 'hidden';
+          });
+
+          setHints(hints - 1);
+          setPreviousRandomNumbers((prevState) =>
+            prevState.concat(randomNumber)
+          );
+          break;
+        }
+        if (previousRandomNumbers.length >= 3) break;
+      }
+    }
+  };
+
+  const handleFiftyFifty = () => {
+      console.log('handle clicked');
+  } */ 
+
+/* 
+  {
+    "question": "Which character is used to indicate an end tag?",
+      "optionA":"<#>",
+      "optionB":"<%>",
+      "optionC":"</>",
+      "optionD":"<*>", 
+      "answer":"</>"
+     const [hints, setHints] = useState(5);
+
+     const handleFiftyFifty = () => {
+    if (fiftyFifty > 0 && !usedFiftyFifty) {
+      const options = document.querySelectorAll('.option');
+      const randomNumbers = [];
+      let indexOfAnswer;
+
+      options.forEach((option, index) => {
+        if (option.innerHTML.toLowerCase() === currentQuestion.answer.toLowerCase()) {
+          indexOfAnswer = index;
+        }
+      });
+
+      let count = 0;
+      do {
+        const randomNumber = Math.round(Math.random() * 3);
+        if (randomNumber === indexOfAnswer) {
+          if (
+            randomNumbers.length < 2 &&
+            !randomNumbers.includes(randomNumber) &&
+            !randomNumbers.includes(indexOfAnswer)
+          ) {
+            randomNumbers.push(randomNumber);
+            count++;
+          }
+        } else {
+          while (true) {
+            const newRandomNumber = Math.round(Math.random() * 3);
+            if (!randomNumbers.includes(newRandomNumber) && newRandomNumber !== indexOfAnswer) {
+              randomNumbers.push(newRandomNumber);
+              count++;
+              break;
+            }
+          }
+        }
+      } while (count < 2);
+
+      options.forEach((option, index) => {
+        if (randomNumbers.includes(index)) {
+          option.style.visibility = 'hidden';
+        }
+      });
+
+      setFiftyFifty(fiftyFifty - 1);
+      setUsedFiftyFifty(true);
+    }
+  };
+
+  const handleHints = () => {
+    if (hints > 0){
+      const options = Array.from(document.querySelectorAll('.option'));
+      // Getting the index of the option that have the correct answer
+      let indexOfAnswer;
+      options.forEach((option, index) => {
+        if (option.innerHTML === currentQuestion.question.answer) {
+          indexOfAnswer = index;
+        }
+      });
+      while (true) {
+        // creating a randomNumber of the option
+        const randomNumber = Math.round(Math.random() * 3);
+        if (
+          // checking if the randomNumber created is not equal to index of the answer
+          randomNumber !== indexOfAnswer) {
+          options.forEach((option, index) => {
+            if (index === randomNumber) {
+            option.style.visibility = 'hidden';
+            setHints(hints - 1);
+            // console.log(randomNumber);
+            }
+          });
+            break;
+        }
+        if (randomNumber >= 3) break;
+      } 
+    }
+     
+  }
+   } */

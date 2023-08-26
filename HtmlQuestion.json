@@ -1,0 +1,94 @@
+ [     
+      {
+        "question": "What type of a language is HTML?",
+          "optionA": "Network Protocol",
+          "optionB": "Programming Language", 
+          "optionC": "Scripting Language", 
+          "optionD": "Markup Language",
+            "answer":"Markup Language"
+      },
+  
+      {
+       "question": "What should be the first tag in any HTML Document?",  
+         "optionA": "<head>", 
+         "optionB": "<title>", 
+         "optionC": "<html>", 
+         "optionD": "<!Doctype html>",
+          "answer":"<!Doctype html>"
+     },
+     {
+       "question": "What tag is used to display a picture in a HTML page?",    
+         "optionA": "Img",
+         "optionB": "Source", 
+         "optionC": "Picture", 
+         "optionD": "Image", 
+          "answer":"Img"
+     },
+  
+    {
+       "question": "HTML are web pages read and rendered by",
+        "optionA": "Server", 
+        "optionB": "Web browser",
+        "optionC": "Compiler", 
+        "optionD": "Interpreter", 
+        "answer":"Web browser"
+     },
+  
+   {
+     "question": "What is the correct HTML tag for inserting a line break?",
+        "optionA": "<br/>",
+        "optionB": "<lb>", 
+        "optionC": "<break/>", 
+        "optionD": "<nbsp>", 
+        "answer":"<br/>"
+    },
+  
+    {
+      "question": "HTML documents are saved in",
+        "optionA": "None of the above",
+        "optionB": "ASCII text",
+        "optionC": "Special binary format",
+        "optionD": "Machine language codes",
+        "answer":"ASCII text"
+      
+    },
+  
+     {
+       "question": "Which tag creates a check box for a form in HTML?",
+         "optionA": "<input type= checkbox>", 
+         "optionB": "<input=checkbox>", 
+         "optionC": "<checkbox>", 
+         "optionD": "<input checkbox>",
+          "answer":"<input checkbox>"
+     },
+  
+    {
+      "question": "Choose the correct HTML tag for the smallest size heading?",
+         "optionA": "<H6>",
+         "optionB": "<H1>", 
+         "optionC": "<Heading>", 
+         "optionD": "<Head/>", 
+          "answer":"<H6>"
+    },
+  
+     {
+       "question": "Choose the correct HTML element to define important text?",
+          "optionA": "<i>", 
+          "optionB": "<strong>",
+          "optionC": "<important>", 
+          "optionD": "<b/>", 
+         "answer":"<strong>"
+       
+     },
+  
+     {
+      "question": "Which character is used to indicate an end tag?",
+        "optionA":"<#>",
+        "optionB":"<%>",
+        "optionC":"</>",
+        "optionD":"<*>", 
+        "answer":"</>"
+       
+     }
+  
+ ]

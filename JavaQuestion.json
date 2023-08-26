@@ -1,0 +1,168 @@
+[
+    {
+      "question": "What is JavaScript and what is its role in web development?",
+      "optionA": "Network Protocol",
+      "optionB": "Programming Language",
+      "optionC": "Scripting Language",
+      "optionD": "It is a programming language used for web development to add interactivity, dynamic",
+      "answer": "Programming Language"
+    },
+    {
+      "question": "How do you declare a variable in JavaScript?",
+      "optionA": "Using var",
+      "optionB": "Using let",
+      "optionC": "Using const",
+      "optionD": "Using variable",
+      "answer": "Using var"
+    },
+    {
+      "question": "Explain the difference between let, const, and var for variable declaration.",
+      "optionA": "Their scope",
+      "optionB": "Their data type",
+      "optionC": "Their color in code editors",
+      "optionD": "Their size in memory",
+      "answer": "Their scope"
+    },
+    {
+      "question": "How do you display a message in the browser's console using JavaScript?",
+      "optionA": "console.log()",
+      "optionB": "browser.print()",
+      "optionC": "alert()",
+      "optionD": "display.message()",
+      "answer": "console.log()"
+    },
+    {
+      "question": "What is the purpose of the typeof operator in JavaScript?",
+      "optionA": "To check if a variable is defined",
+      "optionB": "To determine the data type of a value",
+      "optionC": "To compare two values",
+      "optionD": "To declare a new variable",
+      "answer": "To determine the data type of a value"
+    },
+    {
+      "question": "How do you comment in JavaScript?",
+      "optionA": "//This is a comment",
+      "optionB": "<!--This is a comment-->",
+      "optionC": "*This is a comment*",
+      "optionD": "**This is a comment**",
+      "answer": "//This is a comment"
+    },
+    {
+      "question": "Describe the concept of data types in JavaScript.",
+      "optionA": "The size of the variable",
+      "optionB": "The amount of data a variable can hold",
+      "optionC": "The type of content a variable can store",
+      "optionD": "The shape of the variable",
+      "answer": "The type of content a variable can store"
+    },
+    {
+      "question": "How do you convert a string to an integer in JavaScript?",
+      "optionA": "convert.stringToInt()",
+      "optionB": "parseInt()",
+      "optionC": "string.convertToInt()",
+      "optionD": "toInteger()",
+      "answer": "parseInt()"
+    },
+    {
+      "question": "What is the difference between == and === operators?",
+      "optionA": "== performs type and value equality, === performs only value equality",
+      "optionB": "== performs strict value equality, === performs type and value equality",
+      "optionC": "== is used for strings, === is used for numbers",
+      "optionD": "== is used for addition, === is used for subtraction",
+      "answer": "== performs strict value equality, === performs type and value equality"
+    },
+    {
+      "question": "How can you prevent JavaScript code execution until the document is fully loaded?",
+      "optionA": "Using the window.load() method",
+      "optionB": "Placing scripts at the top of the HTML file",
+      "optionC": "Using the document.ready() method",
+      "optionD": "Placing scripts at the bottom of the HTML file",
+      "answer": "Placing scripts at the bottom of the HTML file"
+    },
+    {
+      "question": "How do you define a function in JavaScript?",
+      "optionA": "define myFunction() {}",
+      "optionB": "function myFunction() {}",
+      "optionC": "create function myFunction() {}",
+      "optionD": "newFunction myFunction() {}",
+      "answer": "function myFunction() {}"
+    },
+    {
+      "question": "What is the purpose of the spread operator (...) in JavaScript?",
+      "optionA": "It performs arithmetic operations",
+      "optionB": "It merges two arrays into one",
+      "optionC": "It multiplies all elements in an array",
+      "optionD": "It converts strings to numbers",
+      "answer": "It merges two arrays into one"
+    },
+    {
+      "question": "What is the significance of the 'this' keyword in JavaScript?",
+      "optionA": "It refers to the previous function call",
+      "optionB": "It represents the current date and time",
+      "optionC": "It refers to the global object",
+      "optionD": "It refers to the current object context",
+      "answer": "It refers to the current object context"
+    },
+    {
+      "question": "How do you handle asynchronous operations in JavaScript?",
+      "optionA": "Using loops",
+      "optionB": "Using callbacks, promises, or async/await",
+      "optionC": "By using global variables",
+      "optionD": "By using synchronous functions",
+      "answer": "Using callbacks, promises, or async/await"
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "optionA": "A variable that holds an entire HTML document",
+      "optionB": "A function that has access to its own variables and variables in its containing function's scope",
+      "optionC": "A type of loop in JavaScript",
+      "optionD": "A method for importing external libraries",
+      "answer": "A function that has access to its own variables and variables in its containing function's scope"
+    },
+    {
+      "question": "What does the 'strict mode' in JavaScript do?",
+      "optionA": "It enforces strict security measures in the browser",
+      "optionB": "It ensures that code is executed in the strict order it is written",
+      "optionC": "It enables enhanced debugging and error reporting",
+      "optionD": "It prevents certain data types from being used",
+      "answer": "It enables enhanced debugging and error reporting"
+    },
+    {
+      "question": "What is the purpose of the fetch() function in JavaScript?",
+      "optionA": "To modify the style of HTML elements",
+      "optionB": "To create animations and transitions",
+      "optionC": "To fetch resources from the network and make API requests",
+      "optionD": "To manipulate the DOM directly",
+      "answer": "To fetch resources from the network and make API requests"
+    },
+    {
+      "question": "How do you create a new array by applying a function to each element of an existing array?",
+      "optionA": "Using the reduce() method",
+      "optionB": "Using the map() method",
+      "optionC": "Using the filter() method",
+      "optionD": "Using the forEach() method",
+      "answer": "Using the map() method"
+    },
+    {
+      "question": "What is the purpose of the try...catch statement in JavaScript?",
+      "optionA": "To define loops in JavaScript",
+      "optionB": "To handle errors and exceptions",
+      "optionC": "To create custom functions",
+      "optionD": "To generate random numbers",
+      "answer": "To handle errors and exceptions"
+    },
+    {
+      "question": "What is a promise in JavaScript?",
+      "optionA": "A guarantee that code will execute without errors",
+      "optionB": "A declaration of a future action or outcome",
+      "optionC": "An object representing the eventual completion or failure of an asynchronous operation",
+      "optionD": "A type of conditional statement",
+      "answer": "An object representing the eventual completion or failure of an asynchronous operation"
+    },
+    {
+      "question": "What is the purpose of the JSON.stringify() function in JavaScript?",
+      "optionA": "To convert a JavaScript object to a JSON string",
+      "optionB": "To convert a JSON string to a JavaScript object",
+      "answer": "To convert a JavaScript object to a JSON string"
+    }
+  ]
